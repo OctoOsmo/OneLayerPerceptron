@@ -20,7 +20,6 @@ namespace OneLayerPerceptron
         {
             int scaleX = bm.Width / sizeX;
             int scaleY = bm.Height / sizeY;
-            int n = 1;
             for (int i = 0; i < bm.Width; ++i)
                 for (int j = 0; j < bm.Height; ++j)
                     if (bm.GetPixel(i, j).ToArgb() == Color.Black.ToArgb())
