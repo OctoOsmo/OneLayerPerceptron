@@ -11,15 +11,15 @@ namespace OneLayerPerceptron
         InputVector[] X;
         OutputVector Y;
 
-        public void SetInputVector(InputVector X)
-        {
-            this.X[] = X;
-        }
+        //public void SetInputVector(InputVector X)
+        //{
+        //    this.X[] = X;
+        //}
 
-        public void SetOutputVector(OutputVector Y)
-        {
-            this.Y = Y;
-        }
+        //public void SetOutputVector(OutputVector Y)
+        //{
+        //    this.Y = Y;
+        //}
 
     }
 }

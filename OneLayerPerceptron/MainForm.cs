@@ -102,7 +102,7 @@ namespace OneLayerPerceptron
             Bitmap bm = new Bitmap(pictureBoxInput.Image);
             InputVector V = new InputVector(this.sizeX * this.sizeY);
             V.BmbToVector(bm, this.sizeX, this.sizeY);
-            a.SetInputVector(V);
+            //a.SetInputVector(V);
             bm.Dispose();            
             //this.inputSamples
         }
